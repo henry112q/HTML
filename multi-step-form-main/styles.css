@@ -17,9 +17,13 @@ body {
     width: 20%;
     background: url(./assets/images/bg-sidebar-desktop.svg) no-repeat center center;
     padding: 1rem;
-    padding-right: 5rem;
-    max-width: fit-content;
+    max-width: 274;
     min-height: 568px;
+}
+.sidebarcontents {
+    display: grid;
+    max-height: fit-content;
+    width: fit-content;
 }
 .attribution {
     visibility: hidden;
