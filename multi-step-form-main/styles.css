@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url(./assets/fonts/Ubuntu-Regular.ttf);
+}
+:root {
+    --MainFont : Ubuntu-Regular;
+}
+body {
+    min-width: 100vh;
+    min-height: 100vh;
+    font-size: 14;
+    font-family: var(--MainFont);
+}
+.attribution {
+    visibility: hidden;
+}
