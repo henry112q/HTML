@@ -11,6 +11,16 @@ body {
     font-size: 14;
     font-family: var(--MainFont);
 }
+.sidebar {
+    display: grid;
+    height: inherit;
+    width: 20%;
+    background: url(./assets/images/bg-sidebar-desktop.svg) no-repeat center center;
+    padding: 1rem;
+    padding-right: 5rem;
+    max-width: fit-content;
+    min-height: 568px;
+}
 .attribution {
     visibility: hidden;
 }
