@@ -2,6 +2,10 @@
     font-family: Ubuntu-Regular;
     src: url(./assets/fonts/Ubuntu-Regular.ttf);
 }
+@font-face {
+    font-family: Ubuntu-bold;
+    src: url(./assets/fonts/Ubuntu-Bold.ttf);
+}
 :root {
     --MainFont : Ubuntu-Regular;
 }
@@ -26,6 +30,18 @@ body {
     max-height: fit-content;
     width: fit-content;
     padding: 1rem;
+}
+#step {
+    display: grid;
+    color: hsl(0, 0%, 100%);
+    font-size: large;
+    font-family: Ubuntu-bold;
+    padding-top: 1rem;
+}
+#title {
+    font-family: var(--MainFont);
+    color: hsl(229, 24%, 87%);
+    font-weight: 400;
 }
 .attribution {
     visibility: hidden;
