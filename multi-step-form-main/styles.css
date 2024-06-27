@@ -2,14 +2,46 @@
     font-family: Ubuntu-Regular;
     src: url(./assets/fonts/Ubuntu-Regular.ttf);
 }
+@font-face {
+    font-family: Ubuntu-bold;
+    src: url(./assets/fonts/Ubuntu-Bold.ttf);
+}
 :root {
     --MainFont : Ubuntu-Regular;
 }
 body {
     min-width: 100vh;
     min-height: 100vh;
-    font-size: 14;
+    font-size: 14px;
     font-family: var(--MainFont);
+}
+.sidebar {
+    display: grid;
+    height: inherit;
+    width: 20%;
+    background: url(./assets/images/bg-sidebar-desktop.svg) no-repeat center center;
+    padding: 1rem;
+    max-width: 274px;
+    min-height: 568px;
+    align-content: space-between;
+}
+.sidebarcontents {
+    display: grid;
+    max-height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+}
+#step {
+    display: grid;
+    color: hsl(0, 0%, 100%);
+    font-size: large;
+    font-family: Ubuntu-bold;
+    padding-top: 1rem;
+}
+#title {
+    font-family: var(--MainFont);
+    color: hsl(229, 24%, 87%);
+    font-weight: 400;
 }
 .attribution {
     visibility: hidden;
